@@ -1,19 +1,10 @@
+'use client';
 import ArrowIcon from '@/assets/arrow-right.svg';
 import cogImage from '@/assets/cog.png';
 import Image from 'next/image';
-import styles from '@/app/page.module.scss';
-import dynamic from 'next/dynamic';
-import SmoothScroll from '@/components/smoothScroll';
-import { Globe } from '@/components/ui/globe';
-
-
-const Earth = dynamic(() => import('@/components/earth'), {
-  ssr: false,
-  loading: () => <img src='/assets/placeholder.png'></img>,
-});
-
 
 export const Hero = () => {
+  
   return (
     <section>
       <div className='container'>
@@ -38,15 +29,6 @@ export const Hero = () => {
         <div>
           <Image src={cogImage} alt='Cog Image' />
         </div>
-        <div>
-          <Globe/>
-        </div>
-        <SmoothScroll>
-          <main>
-            {/* <Earth /> */}
-
-          </main>
-        </SmoothScroll>
       </div>
     </section>
   );
