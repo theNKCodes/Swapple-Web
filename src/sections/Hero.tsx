@@ -1,35 +1,24 @@
-'use client';
-import ArrowIcon from '@/assets/arrow-right.svg';
-import cogImage from '@/assets/cog.png';
-import Image from 'next/image';
+"use client";
+import React from "react";
+import HeroContent from "@/components/HeroContent";
+import HeroImage from "@/components/HeroImage";
 
-export const Hero = () => {
-  
+export const Hero: React.FC = () => {
   return (
-    <section>
-      <div className='container'>
-        <div>
-          {/* <div className='text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight'></div> */}
-          <h1 className='text-5xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6'>
-            Turning your dreams, into reality
-          </h1>
-          <p className='text-xl text-[#010D3E] tracking-tight mt-6'>
-            Swapple Solutions Pvt Ltd is a fast-growing company, innovating to
-            solve future challenges. We empower businesses with cutting-edge
-            technology and strategies.
-          </p>
-          <div className='flex gap-1 items-center mt-[30px]'>
-            <button className='btn btn-primary'>Our Business</button>
-            <button className='btn btn-text gap-1'>
-              <span>Learn More</span>
-              <ArrowIcon className='w-5 h-5' />
-            </button>
-          </div>
-        </div>
-        <div>
-          <Image src={cogImage} alt='Cog Image' />
+    <section className="overflow-hidden bg-white">
+      <div
+        className="px-20 py-20 w-full max-md:px-5 max-md:max-w-full "
+        // space={0}
+      >
+        <div className="flex gap-5 max-md:flex-col ">
+          <article className="w-[55%] max-md:ml-0 max-md:w-full">
+            <HeroContent />
+          </article>
+          <HeroImage />
         </div>
       </div>
     </section>
   );
 };
+
+export default Hero;

@@ -1,19 +1,10 @@
-import ArrowRight from '@/assets/arrow-right.svg';
 import Image from 'next/image';
-import Link from 'next/link';
 import MenuIcon from '@/assets/menu.svg';
 import Logo from '@/assets/SWAPPLE.png';
 
 export const Header = () => {
   return (
-    <header className='sticky top-0'>
-      {/* <div className='flex justify-center items-center py-2 bg-black text-white text-small'>
-        <div className='inline-flex gap-1 items-center'>
-          <p>Get Started for free</p>
-          <ArrowRight className='h-4 w-4 inline-flex justify-center items-center' />
-        </div>
-      </div> */}
-
+    <header className='sticky top-0 backdrop-blur-sm'>
       <div className='py-5'>
         <div className='container'>
           <div className='flex items-center justify-between'>
