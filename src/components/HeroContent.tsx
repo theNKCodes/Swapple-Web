@@ -4,8 +4,8 @@ import FeatureCard from "./FeatureCard";
 
 const HeroContent: React.FC = () => {
   return (
-    <div className="z-10 mt-24 mr-0 w-full max-md:mt-10 max-md:max-w-full ">
-      <section className="flex flex-col ml-10 max-w-full text-zinc-800 w-[495px]">
+    <div className="z-10 mt-24 mr-0 w-full max-md:mt-5 max-md:max-w-full ">
+      <section className="flex flex-col  max-w-full text-zinc-800 w-[495px]">
         <h1 className="text-6xl font-semibold tracking-wider max-md:max-w-full max-md:text-4xl">
           TURNING YOUR DREAMS, INTO REALITY{" "}
         </h1>
