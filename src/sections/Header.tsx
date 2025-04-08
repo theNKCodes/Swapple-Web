@@ -4,13 +4,13 @@ import Logo from '@/assets/SWAPPLE.png';
 
 export const Header = () => {
   return (
-    <header className='sticky top-0 backdrop-blur-sm'>
+    <header className='sticky top-0 md:backdrop-blur-sm'>
       <div className='py-5'>
         <div className='container'>
           <div className='flex items-center justify-between'>
             <Image src={Logo} alt='Swapple Logo' height={40} width={40}></Image>
             <MenuIcon className='h-5 w-5 md:hidden' />
-            <nav className='hidden md:flex gap-6 text-black/60 items-center'>
+            <nav className='hidden md:flex gap-6 text-black/70 font-normal items-center'>
               <a href='#'>Home</a>
               <a href='#'>Swapple-Intern</a>
               <a href='#'>About Us</a>
