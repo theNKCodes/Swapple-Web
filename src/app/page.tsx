@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <LogoTicker/>
       <Middle/>
-      <Bottom/>
+      {/* <Bottom/> */}
       <Swappleship/>
       <Footer/>
     </main>
