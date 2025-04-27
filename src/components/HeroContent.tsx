@@ -3,6 +3,7 @@ import React from 'react';
 import FeatureCard from './FeatureCard';
 import { AnimatedShinyText } from './animated-shiny-text';
 import { ShimmerButton } from './shimmer-button';
+import hv from '@/assets/HV.png'
 const HeroContent: React.FC = () => {
   return (
     <div className='z-10 mt-10 mr-0 w-full max-md:mt-5 max-md:max-w-full '>
@@ -13,7 +14,7 @@ const HeroContent: React.FC = () => {
           </AnimatedShinyText>
         </div>
         <h1 className='text-6xl font-semibold tracking-wider max-md:max-w-full max-md:text-4xl mt-6'>
-          TURNING YOUR DREAMS, INTO REALITY{' '}
+          Swapping your Burning, Into Earning{' '}
         </h1>
         <p className='mt-8 text-2xl leading-8 max-md:max-w-full'>
           Swapple Solutions Pvt Ltd is a fast-growing company, innovating to
@@ -24,18 +25,14 @@ const HeroContent: React.FC = () => {
           <ShimmerButton className='overflow-hidden gap-2.5 self-start px-7 py-4 mt-8 text-1xl rounded-[40px] max-md:px-5'>Get started</ShimmerButton>
       </section>
 
-      <div className='flex flex-wrap gap-6 items-start mt-24 max-md:mt-10'>
+      <div className='flex flex-wrap gap-8 items-start mt-24 max-md:mt-10'>
         <FeatureCard
-          iconSrc='https://cdn.builder.io/api/v1/image/assets/909c163cc28e461c983acf3bbf853a19/33fa8a2816853fb4f252fb5e3767a001272a92ec?placeholderIfAbsent=true'
-          description='Lorem ipsum dolor sit amet, consectetu adipiscing elit. Cursus imperdiet sed id.'
-        />
+          iconSrc={hv}
+          description='HypeVipe AI is an AI-powered social media tool. It helps creators and brands generate trending content in seconds.'
+          />
         <FeatureCard
-          iconSrc='https://cdn.builder.io/api/v1/image/assets/909c163cc28e461c983acf3bbf853a19/95aa78c3949ec5c335b6b1fa44d10156c540e076?placeholderIfAbsent=true'
-          description='Lorem ipsum dolor sit amet, consectetu adipiscing elit. Cursus imperdiet sed id.'
-        />
-        <FeatureCard
-          iconSrc='https://cdn.builder.io/api/v1/image/assets/909c163cc28e461c983acf3bbf853a19/134df5710c6f7170024b8178489027ea3e8c4e88?placeholderIfAbsent=true'
-          description='Lorem ipsum dolor sit amet, consectetu adipiscing elit. Cursus imperdiet sed id.'
+          iconSrc={hv}
+          description='Our Al-powered engine delivers verified, real-time leads. We transform the internet into your lead source.'
         />
       </div>
     </div>

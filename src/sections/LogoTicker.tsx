@@ -5,6 +5,11 @@ import echoLogo from '@/assets/logo-echo.png';
 import pulseLogo from '@/assets/logo-pulse.png';
 import celestialLogo from '@/assets/logo-celestial.png';
 import apexLogo from '@/assets/logo-apex.png';
+import hiring from '@/assets/Hiring.png'
+import growing from '@/assets/growing.png'
+import swapplers from '@/assets/swapplers.png'
+import uniquec from '@/assets/Unique-corn.png'
+import grish from '@/assets/grishhh.png'
 import { motion } from 'framer-motion';
 
 export const LogoTicker = () => {
@@ -21,22 +26,20 @@ export const LogoTicker = () => {
               duration: 30,
               ease: "linear",
             }}
-             className='flex flex-none gap-14 pr-10 -translate-x-0'>
+             className='flex flex-none gap-8 pr-10 -translate-x-0'>
               {[
-                acmeLogo,
-                quantumLogo,
-                echoLogo,
-                pulseLogo,
-                celestialLogo,
-                apexLogo,
-                acmeLogo,
-                quantumLogo,
-                echoLogo,
-                pulseLogo,
-                celestialLogo,
-                apexLogo,
+                hiring,
+                growing,
+                swapplers,
+                uniquec,
+                grish,
+                hiring,
+                growing,
+                swapplers,
+                uniquec,
+                grish,
               ].map((logo) => (
-                <img src={logo.src} key={logo.src} className='h-6 w-auto' />
+                <img src={logo.src} key={logo.src} className='h-10 w-auto' />
               ))}
             </motion.div>
           </div>
