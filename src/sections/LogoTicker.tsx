@@ -1,11 +1,5 @@
 'use client';
-import acmeLogo from '@/assets/logo-acme.png';
-import quantumLogo from '@/assets/logo-quantum.png';
-import echoLogo from '@/assets/logo-echo.png';
-import pulseLogo from '@/assets/logo-pulse.png';
-import celestialLogo from '@/assets/logo-celestial.png';
-import apexLogo from '@/assets/logo-apex.png';
-import hiring from '@/assets/Hiring.png'
+import hiring from '@/assets/hire.png'
 import growing from '@/assets/growing.png'
 import swapplers from '@/assets/swapplers.png'
 import uniquec from '@/assets/Unique-corn.png'
