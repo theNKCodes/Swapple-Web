@@ -5,7 +5,7 @@ import React from 'react';
 
 export const Middle = (): JSX.Element => {
   return (
-    <section className='w-full max-w-7xl mx-auto px-4 py-2 md:py-24'>
+    <section className='w-full max-w-7xl mx-auto px-2 py-2 md:py-18'>
       <div className='container'>
         <div
           className='px-20 w-full max-md:px-5 max-md:max-w-full '

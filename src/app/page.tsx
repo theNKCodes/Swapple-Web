@@ -6,6 +6,9 @@ import Bottom from '@/sections/Bottom';
 import React from 'react';
 import Swappleship from '@/sections/Swappleship';
 import Footer from '@/sections/Footer';
+import FeatureCards from '@/components/FeatureCards';
+import Happen from '@/sections/Happen';
+import Create from '@/components/Create';
 
 export default function Home() {
   return (
@@ -13,10 +16,12 @@ export default function Home() {
     <main className="bg-white ">
       <Header />
       <Hero />
-      <LogoTicker/>
       <Middle/>
-      {/* <Bottom/> */}
+      <FeatureCards/>     
+      <LogoTicker/>
+      <Create/>
       <Swappleship/>
+      <Happen />
       <Footer/>
     </main>
     </>
