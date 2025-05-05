@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import React from 'react';
-import hero from '@/assets/hero.png';
+import hero from '@/assets/Circle.png';
 
 const HeroImage: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const HeroImage: React.FC = () => {
       <Image
         src={hero}
         alt='Hero illustration'
-        className='object-contain w-full rounded-none aspect-[0.79] max-md:mt-10 max-md:max-w-full'
+        className='object-contain w-full rounded aspect-[0.79] max-md:mt-10 max-md:max-w-full'
       />
     </figure>
   );

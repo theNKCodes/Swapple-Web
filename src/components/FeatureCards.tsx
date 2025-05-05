@@ -1,6 +1,7 @@
 import React from 'react';
 import FeatureCard from './FeatureCard';
 import hv from '@/assets/HV.png';
+import two from '@/assets/two.png'
 
 const FeatureCards: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const FeatureCards: React.FC = () => {
           description='HypeVipe AI is an AI-powered social media tool. It helps creators and brands generate trending content in seconds.'
         />
         <FeatureCard
-          iconSrc={hv}
+          iconSrc={two}
           description='Our Al-powered engine delivers verified, real-time leads. We transform the internet into your lead source.'
         />
       </div>
